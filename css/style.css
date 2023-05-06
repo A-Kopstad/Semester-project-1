@@ -21,10 +21,7 @@ nav {
     padding: 0px 200px 0px 200px;
 }
 
-ul{
-    display: flex;
-    list-style-type: none;
-    gap: 60px;
+nav ul{
     color: white;
     margin-left: 556px;
 }
@@ -264,4 +261,8 @@ h1 a:hover::after{
 
 .text-container2 p{
     margin: 0;
+}
+
+footer ul{
+    gap: 30px;
 }
