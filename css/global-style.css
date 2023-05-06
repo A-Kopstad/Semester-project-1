@@ -3,11 +3,35 @@
 html{
     scroll-behavior: smooth;
 }
+
 body{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     margin: 0;
 }
+header{
+    display: flex;
+    justify-content: space-around;
+}
+nav {
+    position:fixed;
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    background-color: rgba(173, 196, 229, .5);
+    padding: 0px 200px 0px 200px;
+}
+
+nav ul{
+    color: white;
+    margin-left: 556px;
+}
+
+li:hover{
+    transform:scale(1.1);
+    text-shadow: 1px 1px #ff8f4c;
+}
+
 footer{
     display: flex;
     color: white;

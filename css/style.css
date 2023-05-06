@@ -3,33 +3,12 @@ body{
     background-color: #ADC4E5;
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
-}
 
 a{
     text-decoration: none;
     color: #ffffff;
 }
-nav {
-    position:fixed;
-    display: flex;
-    color: white;
-    margin-top: 10px;
-    background-color: rgba(173, 196, 229, .5);
-    padding: 0px 200px 0px 200px;
-}
 
-nav ul{
-    color: white;
-    margin-left: 556px;
-}
-
-li:hover{
-    transform:scale(1.1);
-    text-shadow: 1px 1px #ff8f4c;
-}
 
 .section1{
     height: 100svh;
