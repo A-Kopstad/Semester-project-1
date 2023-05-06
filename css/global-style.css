@@ -8,3 +8,12 @@ body{
     font-size: 20px;
     margin: 0;
 }
+footer{
+    width: 1326.52px;
+    height: 64.5px;
+    position:fixed;
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
