@@ -6,7 +6,7 @@ a{
 }
 
 a:visited{
-    color: black;
+    color: inherit;
 }
 html{
     scroll-behavior: smooth;
@@ -27,7 +27,7 @@ nav ul{
     font-size: 20px;
 }
 
-a:hover{
+ul a:hover{
     transform:scale(1.1);
     color: #FF00A8;
     text-shadow: .5px .5px;
@@ -64,3 +64,7 @@ footer img{
     width: 30px;
     height: 30px;
 }
+
+.nav-pink{
+    color: #FF00A8;
+    }

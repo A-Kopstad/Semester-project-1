@@ -1,0 +1,48 @@
+section{
+    padding: 100px 0px 0px 90px;
+}
+
+section img{
+    width: auto;
+    height: 166px;
+    object-fit: cover;
+}
+
+select{
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #FF0A8B;
+}
+
+section ul{
+    list-style-type: none;
+    padding: 0;
+}
+section ul p{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin:0;
+}
+
+section li{
+    display: flex;
+    flex-direction: column;
+    width: 1534px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+section li span{
+    color: #FF0A8B;
+}
+
+.shop img{
+    object-position: 
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+}
