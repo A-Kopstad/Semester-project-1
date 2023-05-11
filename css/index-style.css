@@ -1,3 +1,15 @@
+body{
+ max-width: 1710px;
+ width: 100%;
+ margin: 0 auto;
+}
+
+.max-width {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .section1 img{
     width: 729px;
     height: 854px;
@@ -60,3 +72,6 @@ h1{
     transition:  0.3s ease-in;
 }
 
+nav a:visited{
+    color: black;
+}
