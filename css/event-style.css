@@ -1,0 +1,46 @@
+section{
+    margin: 90px;
+}
+span{
+    color: #ff08ab;
+}
+
+
+.innerflex{
+    display: flex;
+    flex-direction: column;
+}
+
+.innerflex img{
+    width: 478px;
+    height: 372px;
+    object-fit: cover;
+}
+
+.outerflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.j-c{
+    justify-content: flex-start;
+    gap: 41px;
+}
+.text-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff08ab;
+    color: white;
+    max-height: 80px;
+}
+
+.text-flex p{
+    margin: 10px;
+}
+
+.outer-gap{
+    display: grid;
+    gap: 30px;
+}}

@@ -1,48 +1,47 @@
-section{
-    padding: 100px 0px 0px 90px;
+.h1-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
 }
 
-section img{
-    width: auto;
-    height: 166px;
+h2{
+    color: #FF0A8B;
+}
+
+.foodimg{
+    width: 508px;
+    height: 342px;
     object-fit: cover;
 }
 
-select{
-    border: none;
-    background: none;
-    font-size: 20px;
-    color: #FF0A8B;
-}
-
-section ul{
-    list-style-type: none;
-    padding: 0;
-}
-section ul p{
-    color: white;
-    background-color: black;
-    padding: 20px;
-    margin:0;
-}
-
-section li{
+.flexbox-margin{
     display: flex;
-    flex-direction: column;
-    width: 1534px;
+    gap: 513px;
+    margin: 90px;
+}
+
+.reception{
+    width: 563px;
+    height: 342px;
+    object-fit: cover;
+}
+
+.gap1{
+    gap:630px;
+}
+
+.opening-hours ul{
+    font-size: 25px;
+    width: 350px;
+    line-height: 38px;
+}
+
+.font-size-p p{
     font-size: 20px;
-    padding-bottom: 50px;
 }
 
-section li span{
-    color: #FF0A8B;
-}
-
-.shop img{
-    object-position: 
-}
-
-.arrow{
+.flexbox-margin2{
     display: flex;
-    justify-content: center;
+    gap: 275px;
+    margin: 90px;
 }

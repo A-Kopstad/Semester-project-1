@@ -1,0 +1,29 @@
+section{
+    margin: 90px;
+}
+
+section img{
+    width: 602px;
+    height: 602px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 438px;
+}
+
+.text-flex{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+span{
+    color: #FF08AB;
+}
+
+span:hover{
+    text-decoration: underline black wavy;
+}
