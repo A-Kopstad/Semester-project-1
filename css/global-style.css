@@ -71,11 +71,10 @@ footer img{
 
 body{
     max-width: 1710px;
-    max-height: auto;
-    margin: 0 auto;
+    margin: 0;
 }
        
 .max-width{
     max-width: 1710px;
-    margin: 0 auto;
+    margin: 0;
 }
