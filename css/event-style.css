@@ -1,6 +1,12 @@
 section{
     margin: 90px;
 }
+
+.section1{
+    font-size:25px;
+    line-height: 40px;
+    width: 850px;
+}
 span{
     color: #ff08ab;
 }
