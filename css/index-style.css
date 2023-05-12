@@ -1,12 +1,10 @@
 body{
  max-width: 1710px;
- width: 100%;
  margin: 0 auto;
 }
 
 .max-width {
     max-width: 1710px;
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -46,7 +44,7 @@ h1{
 .section2{
     display: flex;
     justify-content: space-around;
-    margin: 100px 40px 0px 40px;
+    margin: 100px 75px 0px 75px;
     font-weight: 500;
 }
 .section2 img{
