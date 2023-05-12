@@ -68,3 +68,13 @@ footer img{
 .nav-pink{
     color: #FF00A8;
     }
+
+body{
+    max-width: 1710px;
+    margin: 0 auto;
+}
+       
+.max-width{
+    max-width: 1710px;
+    margin: 0 auto;
+}
