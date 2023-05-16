@@ -7,8 +7,8 @@ section{
     line-height: 40px;
     width: 850px;
 }
-span{
-    color: #ff08ab;
+span:hover{
+    text-decoration: underline wavy black;
 }
 
 

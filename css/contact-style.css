@@ -1,0 +1,58 @@
+body{
+    background-image: url(/images/wavy.png);
+    background-size: cover;
+}
+
+section{
+    margin: 90px;
+}
+
+h1{
+    font-size: 30px;
+    color: #FF0A8B;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 710px;
+    height: 444px;
+    border: #FF0A8B solid 4px;
+    padding: 150px;
+    justify-content: center;
+}
+
+form label{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form input{
+    border: #FF0A8B solid 2px;
+    font-size: 18px;
+    transition: transform 0.1s ease-out;
+    width: 708px;
+    padding: 15px;
+}
+
+
+
+form select{
+    border: #FF0A8B solid 2px;
+    background-color: white;
+    padding: 15px;
+    font-size: 18px;
+    width: 742px;
+}
+
+form input:active{
+    z-index: 1;
+    transform: translateY(-10px);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, .5);
+    transition:  0.3s ease-in;
+}
+
+.requestbox{
+    padding-bottom: 150px;
+}

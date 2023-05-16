@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Education</title>
+    <title>Contact us</title>
     <link rel="stylesheet" href="/css/global-style.css" />
-    <link rel="stylesheet" href="/css/education-style.css" />
+    <link rel="stylesheet" href="/css/contact-style.css" />
   </head>
 
   <body>
@@ -27,24 +27,21 @@
 
     <main>
       <section>
-        <h1>Something something</h1>
-        <div class="flex">
-          <img src="/images/teacher.png" alt="" />
-          <div class="text-flex">
-            <p>
-              As a community-driven museum, we want to work with schools to
-              create places of learning and exploring. Our team are on hand to
-              give your students guided tours of the museum, teach them in our
-              learning laboratory, and provide great video presentations that
-              will excite and inspire them.
-            </p>
-            <p>
-              Please get in touch with us <a class="here" href="/html/contact.html"><span>here</span></a> find out more about
-              our facilities and to arrange a time to bring your students
-              through for a visit.
-            </p>
-          </div>
-        </div>
+        <h1>Contact us</h1>
+        <form action="/html/contact.html">
+            <label for="name">Your name</label>
+            <input type="text" id="name">
+            <label for="email">Your e-mail address</label>
+            <input type="text" id="email">
+            <label for="topic">Select a topic</label>
+            <select name="topic" id="topic">
+                <option value="topic">Request regarding...</option>
+                <option value="topic1">Request regarding education.</option>
+                <option value="topic2">Request regarding private tour.</option>
+            </select>
+            <label for="request">Your request...</label>
+            <input class="requestbox" type="text" id="request">
+        </form>
       </section>
     </main>
     <footer>

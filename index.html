@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>The Community Science Museum</title>
     <link rel="stylesheet" href="/css/global-style.css" />
     <link rel="stylesheet" href="/css/index-style.css" />
     <script
@@ -15,8 +15,9 @@
 
   <body>
     <header>
+      <input type="checkbox" id="hamburger">
       <nav class="max-width">
-        <a href="/index.html"
+        <a class="logo-padding" href="/index.html"
           ><p class="logo logo-top-part">Community</p>
           <p class="logo">Science Museum</p></a
         >
@@ -28,6 +29,10 @@
           </li>
           <li class="event-link"><a href="/html/event.html">event</a></li>
         </ul>
+        <label for="hamburger" class="hamburgermenu" aria-label="a hamburger menu">
+          <span class="bars"><i class="fa-solid fa-bars"></i></span>
+          <span class="x"><i class="fa-solid fa-x"></i></span>
+      </label>
       </nav>
     </header>
 
@@ -36,11 +41,11 @@
         <img src="images/museum1.jpg" alt="" />
         <div class="h1flex">
           <h1>
-            Welcome to the <span class="pink">Community Science Museum!</span>
+            Welcome to the <span>Community Science Museum!</span>
           </h1>
-          <p class="pink">Opening hours today:</p>
+          <p><span>Opening hours today:</span></p>
           <p>0900-1300</p>
-          <p class="pink">Todays events</p>
+          <p><span>Todays events</span></p>
           <ul>
             <li>Guided tours</li>
             <li>Kids Club meeting</li>
@@ -49,28 +54,27 @@
       </section>
 
       <section class="section2">
-        <div class="slide-up">
-          <div class="card">
+          <a href="/html/visit.html" class="card">
             <img src="/images/childrenlookatexhibition.png" alt="" />
             <p>Visit us</p>
-          </div>
-        </div>
-        <div class="card">
+          </a>
+        
+        <a href="/html/explore.html" class="card">
           <img src="/images/childrenmilkyway.png" alt="" />
           <p>Explore</p>
-        </div>
-        <div class="card">
+        </a>
+        <a href="#" class="card">
           <img src="/images/youngstars.png" alt="" />
           <p>Young Stars Club</p>
-        </div>
-        <div class="card">
+        </a>
+        <a href="/html/education.html" class="card">
           <img src="/images/teacher.png" alt="" />
           <p>Education</p>
-        </div>
-        <div class="card">
+        </a>
+        <a href="/html/event.html" class="card">
           <img src="/images/sleepover.png" alt="" />
           <p>Events</p>
-        </div>
+        </a>
       </section>
     </main>
     <footer>

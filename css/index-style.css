@@ -1,7 +1,8 @@
 .section1 img{
-    width: 729px;
-    height: 854px;
+    width: 660px;
+    height: 785px;
     padding-top: 110px;
+    z-index: -2;
 }
 
 .section1{
@@ -13,14 +14,12 @@
     list-style-position: inside;
 }
 
-.pink{
-    color:#FF00A8;
-    margin: 0;
-}
+
 
 .h1flex{
     padding-top: 257px;
     font-size: 28px;
+    margin: 30px;
 }
 
 .h1flex span{
@@ -36,12 +35,12 @@ h1{
     justify-content: space-around;
     margin: 100px 75px 0px 75px;
     font-weight: 500;
+    flex-wrap: wrap;
 }
 .section2 img{
     width: 290px;
-    height: 360px;
+    height: 428px;
     object-fit: cover;
-    border-radius: 30px;
 }
 
 .card{
@@ -49,17 +48,45 @@ h1{
     flex-direction: column;
     align-items: center;
     color: #FF00A8;
-    border-radius: 30px;
+    padding: 10px;
     transition: transform 0.3s ease-out;
 }
 
 .card:hover{
     z-index: 1;
     transform: translateY(-10px);
-    box-shadow: 0 25px 40px rgba(0, 0, 0, .5);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, .1);
     transition:  0.3s ease-in;
 }
 
-nav a:visited{
-    color: black;
+@media (max-width: 1000px){
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section1 img{
+        width: auto;
+        height: 565px;
+    }
+    .h1flex{
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 480px){
+    .h1flex{
+        font-size: 18px;
+    }
+
+    .section2 img{
+        width: auto;
+        height: 270px;
+    }
+
+    .section1 img{
+        height: 430px;
+    }
 }
