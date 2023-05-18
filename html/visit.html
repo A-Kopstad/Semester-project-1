@@ -7,12 +7,17 @@
     <title>Visit us</title>
     <link rel="stylesheet" href="/css/global-style.css" />
     <link rel="stylesheet" href="/css/visit-style.css" />
+    <script
+    src="https://kit.fontawesome.com/282fd42550.js"
+    crossorigin="anonymous"
+  ></script>
   </head>
 
   <body>
     <header>
+      <input type="checkbox" id="hamburger" />
       <nav class="max-width">
-        <a href="/index.html"
+        <a class="logo-padding" href="/index.html"
           ><p class="logo logo-top-part">Community</p>
           <p class="logo">Science Museum</p></a
         >
@@ -22,16 +27,25 @@
           <li><a href="/html/education.html">education</a></li>
           <li><a href="/html/event.html">event</a></li>
         </ul>
+        <label
+          for="hamburger"
+          class="hamburgermenu"
+          aria-label="a hamburger menu"
+        >
+          <span class="bars"><i class="fa-solid fa-bars"></i></span>
+          <span class="x"><i class="fa-solid fa-x"></i></span>
+        </label>
       </nav>
     </header>
 
     <main>
       <section>
         <div class="h1-flex">
-          <h1>
+          <h1>Visit us</h1>
+          <p>
             Come join us at the Community Science Museum where we are committed
             to making science accessible to all.
-          </h1>
+          </p>
         </div>
 
         <div class="flexbox-margin gap1">
@@ -56,7 +70,7 @@
             <img src="/images/birkelyveien.png" alt="" />
           </div>
 
-          <div>
+          <div class="box-width">
             <h2>Food and beverage</h2>
             <p>
               There is a café attached to the museum where you can get light
@@ -66,8 +80,8 @@
           </div>
         </div>
 
-        <div class="flexbox-margin2 font-size-p">
-          <div>
+        <div class="flexbox-margin font-size-p">
+          <div class="box-width">
             <h2>Shop</h2>
             <p>
               Our museumshop offers a range of memorabilia from the museum as
@@ -75,7 +89,7 @@
               to explore science even after you’ve left the museum.
             </p>
           </div>
-          <div>
+          <div class="box-width">
             <h2>Accessibility</h2>
             <p>
               The museum has wheelchair accessibility ramps. It also has audio

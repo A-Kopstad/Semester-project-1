@@ -28,11 +28,7 @@ nav ul{
     font-size: 20px;
 }
 
-ul a:hover{
-    transform:scale(1.1);
-    color: #FF00A8;
-    text-shadow: .5px .5px;
-}
+
 
 .logo{
     font-size: 24px;
@@ -99,7 +95,14 @@ nav .x{
     header input{
         display:none;
     }
+
+    ul a:hover{
+        transform:scale(1.1);
+        color: #FF00A8;
+        text-shadow: .5px .5px;
+    }
 }
+
 
 @media (max-width:870px){
     #hamburger:checked ~ nav ul {
@@ -109,12 +112,21 @@ nav .x{
     #hamburger:checked ~ nav .x {
         display: flex;
         font-size: 30px;
-        color: black;
+        color: white;
         transition: 0.5s;
+        padding-right: 20px;
       }
 
     #hamburger:checked ~ nav .bars {
         display: none;
+      }
+
+      #hamburger:checked ~ nav ul {
+        color: white;
+      }
+
+      #hamburger:checked ~ a .logo-padding {
+        color: white;
       }
       
     nav ul {
@@ -124,12 +136,12 @@ nav .x{
         width: 100%;
         height: 100%;
         top: -30px;
-        z-index: -1;
         transform: translatey(-150%);
         transition: 1s;
         align-items: center;
         font-size: 22px;
         padding-top: 250px;
+        color: ;
       }
 
       nav{
@@ -140,10 +152,12 @@ nav .x{
       .hamburgermenu{
         padding-right: 30px;
         font-size: 30px;
+        z-index: 1;
       }
 
       .logo-padding{
         padding-left: 40px;
+        z-index: 1;
       }
 
       .bars{
@@ -163,4 +177,6 @@ nav .x{
       .logo{
         font-size: 20px;
       }
+      
+      
 }
