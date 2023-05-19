@@ -146,7 +146,8 @@ label:hover{
         align-items: center;
         font-size: 22px;
         padding-top: 250px;
-        color: ;
+        padding-left: 0;
+        left: 0px;
       }
 
       nav{
