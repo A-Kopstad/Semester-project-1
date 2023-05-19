@@ -17,7 +17,7 @@ section ul{
 }
 section ul p{
     color: white;
-    background-color: black;
+    background-color: #FF0A8B;
     padding: 20px;
     margin:0;
 }
@@ -31,7 +31,7 @@ section li{
 }
 
 section li span{
-    color: #FF0A8B;
+    color: black;
 }
 
 .shop img{
@@ -53,6 +53,14 @@ section li span{
     transform: translateY(-4px);
     transition:  0.3s ease-in;
 }
+
+.max-width{
+    max-width: 1710px;
+    margin: 0;
+    padding: 80px 80px 0px 90px;
+
+}
+
 
 @media (max-width: 860px){
 

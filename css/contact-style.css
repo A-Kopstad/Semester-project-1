@@ -15,7 +15,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 710px;
+    max-width: 710px;
     height: 444px;
     border: #FF0A8B solid 4px;
     padding: 150px;
@@ -32,7 +32,7 @@ form input{
     border: #FF0A8B solid 2px;
     font-size: 18px;
     transition: transform 0.1s ease-out;
-    width: 708px;
+    max-width: 708px;
     padding: 15px;
 }
 
@@ -43,7 +43,7 @@ form select{
     background-color: white;
     padding: 15px;
     font-size: 18px;
-    width: 742px;
+    max-width: 742px;
 }
 
 form input:active{
@@ -55,4 +55,44 @@ form input:active{
 
 .requestbox{
     padding-bottom: 150px;
+}
+
+@media (max-width:870px){
+    form{
+        gap: 20px;
+        height: 375px;
+        padding: 150px 100px 150px 100px;
+    }
+
+    form label{
+        font-size: 15px;
+    }
+
+    form select{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:685px){
+    form{
+        gap: 20px;
+        height: 375px;
+        padding: 100px 30px 100px 30px;
+    }
+
+    form label{
+        font-size: 15px;
+    }
+
+    form input{
+    padding: 0;
+    }
+
+    .requestbox{
+        padding-bottom: 95px;
+    }
+
+    section{
+        margin: 15px;
+    }
 }

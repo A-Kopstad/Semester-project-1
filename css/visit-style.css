@@ -58,6 +58,7 @@ h2{
     padding-top: 25px;
 }
 
+
 @media (min-width:550px) and (max-width: 1334px){
     .flexbox-margin{
         flex-direction: column;
