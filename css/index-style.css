@@ -58,6 +58,11 @@ h1{
     transition:  0.3s ease-in;
 }
 
+@media (min-width: 1000px){
+    .section1{
+        margin-left: 50px;
+    }
+}
 @media (max-width: 1000px){
     .section1{
         display: flex;
@@ -72,6 +77,10 @@ h1{
     }
     .h1flex{
         padding-top: 10px;
+    }
+
+    .max-width{
+        gap: 100px;
     }
 }
 
