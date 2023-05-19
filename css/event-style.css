@@ -1,11 +1,12 @@
-section{
+.section2{
     margin: 90px;
 }
 
 .section1{
-    font-size:25px;
+    font-size:20px;
     line-height: 40px;
-    width: 850px;
+    margin-left: 90px;
+    margin-top: 90px;
 }
 span:hover{
     text-decoration: underline wavy black;
@@ -18,21 +19,17 @@ span:hover{
 }
 
 .innerflex img{
-    width: 478px;
-    height: 372px;
+    width: 420px;
+    height: 300px;
     object-fit: cover;
 }
 
 .outerflex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 60px;
 }
 
-.j-c{
-    justify-content: flex-start;
-    gap: 41px;
-}
 .text-flex{
     display: flex;
     flex-direction: column;
@@ -49,4 +46,42 @@ span:hover{
 .outer-gap{
     display: grid;
     gap: 30px;
+}
+
+@media (max-width:1078px){
+    .outerflex{
+        justify-content: center;
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1{
+        margin: 90px 30px 30px 30px;
+    }
+
+    h1{
+        font-size: 20px;
+        width: 175px;
+    }
+}
+
+@media (max-width:500px){
+    .innerflex img{
+        width: 260px;
+        height: 230px;
+    }
+
+    .text-flex{
+        font-size: 15px;
+    }
+
+    .section1 p{
+        font-size: 14px;
+    }
+
+    
 }

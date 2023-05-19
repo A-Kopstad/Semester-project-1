@@ -7,13 +7,17 @@
     <title>Event</title>
     <link rel="stylesheet" href="/css/global-style.css" />
     <link rel="stylesheet" href="/css/event-style.css" />
-
+    <script
+    src="https://kit.fontawesome.com/282fd42550.js"
+    crossorigin="anonymous"
+  ></script>
   </head>
 
   <body>
     <header>
+      <input type="checkbox" id="hamburger" />
       <nav class="max-width">
-        <a href="/index.html"
+        <a class="logo-padding" href="/index.html"
           ><p class="logo logo-top-part">Community</p>
           <p class="logo">Science Museum</p></a
         >
@@ -23,6 +27,14 @@
           <li><a href="/html/education.html">education</a></li>
           <li class="nav-pink"><a href="/html/event.html">event</a></li>
         </ul>
+        <label
+          for="hamburger"
+          class="hamburgermenu"
+          aria-label="a hamburger menu"
+        >
+          <span class="bars"><i class="fa-solid fa-bars"></i></span>
+          <span class="x"><i class="fa-solid fa-x"></i></span>
+        </label>
       </nav>
     </header>
 
@@ -43,9 +55,8 @@
         </p>
       </section>
 
-      <section>
+      <section class="section2">
         <h1>Upcoming events</h1>
-        <div class="outer-gap">
         <div class="outerflex">
           <div class="innerflex">
             <img src="/images/professor.png" alt="" />
@@ -67,21 +78,19 @@
             <img src="/images/youngstars.png" alt="" />
             <div class="text-flex">
               <p>Young Stars Club</p>
-              <p class="item">Every Saturday</p>
-              <p class="item">10:00 - 13:00</p>
+              <p>Every Saturday</p>
+              <p>10:00 - 13:00</p>
             </div>
           </div>
-        </div>
 
-        <div class="outerflex j-c">
-            <div class="innerflex">
-              <img src="/images/museum.jpg" alt="" />
-              <div class="text-flex">
-                <p> Guided tours</p>
-                <p>Daily - Every Hour</p>
-              </div>
+          <div class="innerflex">
+            <img src="/images/museum.jpg" alt="" />
+            <div class="text-flex">
+              <p> Guided tours</p>
+              <p>Daily - Every Hour</p>
             </div>
-  
+          </div>
+
             <div class="innerflex">
               <img src="/images/childrenlookingatplanets.png" alt="" />
               <div class="text-flex">
@@ -89,8 +98,6 @@
                 <p>23d of May - 14:00</p>
               </div>
             </div>
-        </div>
-        </div>
       </section>
     </main>
     <footer>

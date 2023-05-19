@@ -4,26 +4,60 @@ section{
 
 section img{
     width: 602px;
-    height: 602px;
+    padding-right: 260px;
 }
 
 .flex{
     display: flex;
-    align-items: center;
-    gap: 438px;
 }
 
 .text-flex{
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 42px;
 }
 
-span{
+.text-flex span{
     color: #FF08AB;
 }
 
-span:hover{
-    text-decoration: underline black wavy;
+.text-flex span:hover{
+    text-decoration: underline black 2px;
+}
+
+@media (max-width: 1362px){
+    .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section img{
+        padding:0;
+    }
+
+    .text-flex{
+        margin-top: 30px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:640px){
+    section img{
+        width: 265px;
+    }
+
+    .text-flex{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    section{
+        margin: 30px;
+    }
 }

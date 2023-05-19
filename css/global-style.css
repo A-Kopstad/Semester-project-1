@@ -29,7 +29,6 @@ nav ul{
 }
 
 
-
 .logo{
     font-size: 24px;
     line-height: 35px;
@@ -113,7 +112,6 @@ nav .x{
         display: flex;
         font-size: 30px;
         color: white;
-        transition: 0.5s;
         padding-right: 20px;
       }
 
@@ -129,6 +127,12 @@ nav .x{
         color: white;
       }
       
+      #hamburger:checked ~ nav .logo {
+      border-bottom: 4px solid black;
+      color: white;
+      transition: 0.7s;
+      }
+
     nav ul {
         flex-direction: column;
         position: absolute;
@@ -178,5 +182,9 @@ nav .x{
         font-size: 20px;
       }
       
+      .nav-pink{
+        text-decoration: underline black 3px;
+        color: white;
+      }
       
 }

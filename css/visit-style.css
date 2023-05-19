@@ -47,24 +47,39 @@ h2{
 }
 
 .font-size-p p{
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .box-width{
     width: 550px;
 }
 
-@media (max-width: 1332px){
+.address-flex iframe{
+    padding-top: 25px;
+}
+
+@media (min-width:550px) and (max-width: 1334px){
+    .flexbox-margin{
+        flex-direction: column;
+    }
+}
+@media (max-width: 1334px){
     .flexbox-margin{
         justify-content: center;
         gap: 70px;
         margin: 0;
+        align-items: center;
     }
- .h1-flex{
+    
+    .h1-flex{
         margin: 40px;
         align-items: center;
     }
-
+    .h1-flex p{
+        text-align: center;
+        font-size: 18px;
+    }
     .flexbox-margin{
         margin-top: 90px;
     }
@@ -78,6 +93,34 @@ h2{
     .opening-hours ul{
         align-items: center;
     }
+
+    .address-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .address-flex img{
+        width: 353px;
+        height: 198px;
+        margin: 20px;
+    }
+
+    .box-width{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-width img{
+        height: 273px;
+        width: auto;
+    }
+
+    .box-width p{
+        padding: 0px 20px 20px 0px;
+    }
 }
 
 @media (max-width:640px){
@@ -88,7 +131,7 @@ h2{
     }
 
     .opening-hours ul{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .logo{
@@ -102,4 +145,5 @@ h2{
     .fa-solid{
         font-size: 25px;
     }
+
 }
