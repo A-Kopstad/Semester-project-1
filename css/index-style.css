@@ -55,7 +55,7 @@ h1{
 .card:hover{
     z-index: 1;
     transform: translateY(-10px);
-    box-shadow:#c0b8b8 1px 1px 20px;
+    box-shadow:#c0b8b8 5px 5px 10px;
     transition:  0.3s ease-in;
 }
 
@@ -103,6 +103,7 @@ h1{
 }
 h2{
     color: #FF00A8;
+    text-decoration: underline 3px;
 }
 
 .text-flex a:hover{

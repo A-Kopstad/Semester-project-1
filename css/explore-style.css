@@ -16,8 +16,7 @@ section ul{
     padding: 0;
 }
 section ul p{
-    color: white;
-    background-color: #FF0A8B;
+    background-color: white;
     padding: 20px;
     margin:0;
 }
@@ -31,7 +30,7 @@ section li{
 }
 
 section li span{
-    color: black;
+    color: #FF0A8B;
 }
 
 .shop img{

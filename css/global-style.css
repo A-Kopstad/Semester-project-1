@@ -11,7 +11,7 @@ header a:visited{
 }
 html{
     scroll-behavior: smooth;
-    background-color: #ffc3f0;
+    
 }
 
 nav{
@@ -47,15 +47,23 @@ nav ul{
 body{
     font-family:'Inter', sans-serif;
     font-weight: 300;
+    background-color: #ffc3f0;
 }
 
+footer{
+  background-color: white;
+  height: 300px;
+  display: flex;
+  margin-top: 100px;
+
+}
 footer ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     list-style-type: none;
-    margin-top: 100px;
     gap: 20px;
+    display: flex;
+    position: relative;
+    top: 229px;
+    right: 20px;
 }
 
 footer img{
@@ -63,6 +71,11 @@ footer img{
     height: 30px;
 }
 
+.grid-container-ul{
+  display: grid;
+  grid-template-columns: 1300px;
+  grid-template-rows: 2;
+}
 .nav-pink{
     color: black;
     }
