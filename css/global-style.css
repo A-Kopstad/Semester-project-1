@@ -27,7 +27,7 @@ nav ul{
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    color: white;
+    color: #ff0291;
 }
 
 
@@ -36,7 +36,7 @@ nav ul{
     line-height: 35px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid #ff0291;
     margin: 0;
 }
 
@@ -47,25 +47,45 @@ nav ul{
 body{
     font-family:'Inter', sans-serif;
     font-weight: 300;
-    background-color: #ffc3f0;
+    background-color:#ffedfa;
 }
 
 footer{
   background-color: white;
-  height: 300px;
+  height: 400px;
   display: flex;
-  margin-top: 100px;
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 130px;
 
 }
 footer ul{
     list-style-type: none;
     gap: 20px;
     display: flex;
-    position: relative;
-    top: 229px;
-    right: 20px;
+    
 }
 
+.uli{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.uli ul{
+  padding-left: 0;
+
+}
+
+.ulll{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 footer img{
     width: 30px;
     height: 30px;
@@ -88,7 +108,7 @@ body{
 
 
 span{
-    color: white;
+    color: #ff0291;
 }
 
 #hamburger{
