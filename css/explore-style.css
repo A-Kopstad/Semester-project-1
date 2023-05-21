@@ -9,7 +9,7 @@ select{
     background: none;
     font-size: 20px;
     color: #ff0291;
-    background-color: #ffedfa00;
+    background-color: #ffedfa16;
 }
 
 section ul{
@@ -32,7 +32,7 @@ section li{
 
 section li span{
     color: #ff0291;
-    background-color: #ffedfa00;
+    background-color: #ffedfa16;
 }
 
 .shop img{
