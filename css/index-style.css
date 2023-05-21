@@ -14,13 +14,10 @@
 
 .h1flex{
     padding-top: 257px;
-    font-size: 28px;
+    font-size: 20px;
     margin: 30px;
 }
 
-.h1flex span{
-    display: block;
-}
 
 h1{
     padding-bottom: 30px;
@@ -88,7 +85,7 @@ h1{
     gap: 70px;
     margin: 40px;
 }
-h2{
+.content h2{
     text-decoration: underline 3px;
 }
 
