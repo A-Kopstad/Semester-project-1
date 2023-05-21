@@ -13,12 +13,9 @@ span:hover{
 }
 
 
-.innerflex{
-    display: flex;
-    flex-direction: column;
-}
 
-.innerflex img{
+
+.outerflex img{
     width: 420px;
     height: 300px;
     object-fit: cover;
@@ -70,7 +67,7 @@ span:hover{
 }
 
 @media (max-width:500px){
-    .innerflex img{
+    .outerflex img{
         width: 260px;
         height: 230px;
     }

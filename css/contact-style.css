@@ -1,10 +1,7 @@
-body{
-    background-image: url(/images/wavy.png);
-    background-size: cover;
-}
 
 section{
     margin: 90px;
+    gap: 20px;
 }
 
 h1{
@@ -12,11 +9,9 @@ h1{
     color: #FF0A8B;
 }
 form{
-    display: flex;
-    flex-direction: column;
     gap: 30px;
     max-width: 710px;
-    height: 444px;
+    max-height: 520px;
     border: #FF0A8B solid 4px;
     padding: 150px;
     justify-content: center;
@@ -36,12 +31,14 @@ form input{
     padding: 15px;
 }
 
-
+form input:hover{
+    background:linear-gradient(#fb5abc2e, white);
+}
 
 form select{
     border: #FF0A8B solid 2px;
     background-color: white;
-    padding: 15px;
+    padding: 15px 115px 15px 15px;
     font-size: 18px;
     max-width: 742px;
 }
@@ -55,6 +52,11 @@ form input:active{
 
 .requestbox{
     padding-bottom: 150px;
+}
+
+.submit{
+    background-color: white;
+    padding: 5px;
 }
 
 @media (max-width:870px){
@@ -95,4 +97,16 @@ form input:active{
     section{
         margin: 15px;
     }
+}
+
+@media (max-width:475px){
+    h1{
+        font-size: 20px;
+    }
+
+    form{
+        max-width: 215px;
+    }
+
+    form select[
 }

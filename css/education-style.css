@@ -1,3 +1,7 @@
+h1{
+    padding-bottom: 30px;
+}
+
 section{
     margin: 90px;
     background-color: white;
@@ -11,15 +15,9 @@ section img{
 }
 .img-padding{
     padding-right: 260px;
-
-}
-.flex{
-    display: flex;
 }
 
 .text-flex{
-    display: flex;
-    flex-direction: column;
     font-size: 20px;
     line-height: 42px;
 }
@@ -32,8 +30,8 @@ section img{
     text-decoration: underline black 2px;
 }
 
-@media (max-width: 1362px){
-    .flex{
+@media (max-width: 1450px){
+    .media-style{
         flex-direction: column;
         align-items: center;
     }
@@ -44,18 +42,17 @@ section img{
 
     .text-flex{
         margin-top: 30px;
+        text-align: center;
     }
 
-    section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .img-padding{
+        padding: 0;
     }
 }
 
-@media (max-width:640px){
+@media (max-width:832px){
     section img{
-        width: 265px;
+        width: 400px;
     }
 
     .text-flex{
@@ -65,5 +62,11 @@ section img{
 
     section{
         margin: 30px;
+    }
+}
+
+@media (max-width: 500px){
+    section img{
+        width: 205px;
     }
 }

@@ -1,20 +1,16 @@
-
 .section1 img{
     width: 660px;
     height: 785px;
     padding-top: 110px;
-    z-index: -2;
+    
 }
 
 .section1{
-    display: flex;
     justify-content: space-around;
     line-height: 47px;
     text-align: right;
     list-style-position: inside;
 }
-
-
 
 .h1flex{
     padding-top: 257px;
@@ -31,7 +27,6 @@ h1{
 }
 
 .section2{
-    display: flex;
     justify-content: space-around;
     margin: 100px 75px 0px 75px;
     font-weight: 500;
@@ -44,9 +39,6 @@ h1{
 }
 
 .card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 10px;
     transition: transform 0.3s ease-out;
     background-color: white;
@@ -67,10 +59,7 @@ h1{
 }
 
 .text-flex{
-    display: flex;
-    flex-direction: column;
     font-size: 20px;
-    
 }
 
 .text-flex p{
@@ -81,7 +70,6 @@ h1{
 .shadow{
     background-color: #ebf6ff;
     box-shadow: #c0b8b8 1px 1px 20px ;
-    display: flex;
     margin: 25px;
     background-color: white;
     max-width: 1325px;
@@ -97,7 +85,6 @@ h1{
 }
 
 .content{
-    display: flex;
     gap: 70px;
     margin: 40px;
 }
@@ -160,6 +147,18 @@ nav ul{
 
     .shadow{
         margin: 0;
+    }
+
+    .h1flex li{
+        list-style-type: none;
+    }
+
+    .h1flex ul{
+        padding-left: 0;
+    }
+    
+    .section2{
+        gap: 40px;
     }
 }
 
