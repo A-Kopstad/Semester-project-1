@@ -8,6 +8,10 @@
     margin-left: 90px;
     margin-top: 90px;
 }
+span{
+    background-color: #ffedfa16;
+
+}
 span:hover{
     text-decoration: underline wavy black;
 }
