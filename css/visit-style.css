@@ -7,12 +7,10 @@
     
 }
  h1{
-    color: #FF0A8B;
+    color: #ff0291;
     text-decoration: underline 3px;
  }
-h2{
-    color: #FF0A8B;
-}
+
 
 .foodimg{
     width: 508px;
@@ -83,8 +81,6 @@ h2{
     }
 
     .opening-hours{
-        display: flex;
-        flex-direction: column;
         align-items: center;
     }
 
@@ -96,12 +92,18 @@ h2{
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .address-flex img{
         width: 353px;
         height: 198px;
         margin: 20px;
+    }
+
+    .address-flex p{
+        font-size: 15px;
+        width: 260px;
     }
 
     .box-width{
@@ -144,8 +146,9 @@ h2{
         font-size: 25px;
     }
 
+    iframe{
+        width:250px;
+        height:150px;
+    }
 }
 
-@media (max-width: 470px) {
-    
-}

@@ -8,7 +8,7 @@ select{
     border: none;
     background: none;
     font-size: 20px;
-    color: #FF0A8B;
+    color: #ff0291;
 }
 
 section ul{
@@ -30,7 +30,7 @@ section li{
 }
 
 section li span{
-    color: #FF0A8B;
+    color: #ff0291;
 }
 
 .shop img{

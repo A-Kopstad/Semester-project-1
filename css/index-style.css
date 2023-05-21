@@ -89,12 +89,11 @@ h1{
     margin: 40px;
 }
 h2{
-    color: #FF00A8;
     text-decoration: underline 3px;
 }
 
 .text-flex a:hover{
-    color: #FF00A8;
+    color: #ff0291;
 }
 
 nav ul{

@@ -7,12 +7,17 @@
     <title>Contact us</title>
     <link rel="stylesheet" href="/css/global-style.css" />
     <link rel="stylesheet" href="/css/contact-style.css" />
+    <script
+      src="https://kit.fontawesome.com/282fd42550.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <header>
+      <input type="checkbox" id="hamburger" />
       <nav class="max-width flex">
-        <a href="/index.html"
+        <a class="logo-padding" href="/index.html"
           ><p class="logo logo-top-part">Community</p>
           <p class="logo">Science Museum</p></a
         >
@@ -22,6 +27,14 @@
           <li class="nav-pink"><a href="/html/education.html">education</a></li>
           <li><a href="/html/event.html">event</a></li>
         </ul>
+        <label
+          for="hamburger"
+          class="hamburgermenu"
+          aria-label="a hamburger menu"
+        >
+          <span class="bars"><i class="fa-solid fa-bars"></i></span>
+          <span class="x"><i class="fa-solid fa-x"></i></span>
+        </label>
       </nav>
     </header>
 
@@ -29,48 +42,48 @@
       <section class="flex column center">
         <h1>Contact us</h1>
         <form class="flex column" action="/html/contact.html">
-            <label for="name">Your name</label>
-            <input type="text" id="name">
-            <label for="email">Your e-mail address</label>
-            <input type="text" id="email">
-            <label for="topic">Select a topic</label>
-            <select name="topic" id="topic">
-                <option value="topic">Request regarding...</option>
-                <option value="topic1">Request regarding education.</option>
-                <option value="topic2">Request regarding private tour.</option>
-            </select>
-            <label for="request">Your request...</label>
-            <input class="requestbox" type="text" id="request">
-            <input type="submit" name="submit" class="submit">
+          <label for="name">Your name</label>
+          <input type="text" id="name" />
+          <label for="email">Your e-mail address</label>
+          <input type="text" id="email" />
+          <label for="topic">Select a topic</label>
+          <select name="topic" id="topic">
+            <option value="topic">Request regarding...</option>
+            <option value="topic1">Request regarding education.</option>
+            <option value="topic2">Request regarding private tour.</option>
+          </select>
+          <label for="request">Your request...</label>
+          <input class="requestbox" type="text" id="request" />
+          <input type="submit" name="submit" class="submit" />
         </form>
       </section>
     </main>
     <footer class="flex center">
       <div class="footer-div1 flex column center">
         <div class="flex column center f-u-container">
-        <h2>The Community Science Museum</h2>
-        <ul class="flex">
-          <li><a href="/html/visit.html">visit us</a></li>
-          <li><a href="/html/explore.html">explore</a></li>
-          <li><a href="/html/education.html">education</a></li>
-          <li><a href="/html/event.html">event</a></li>
-        </ul>
-        <ul class="flex">
-          <li>
-            <a href="/html/contact.html">contact us</a>
-          </li>
-          <li><a href="/html/contact.html">get involved</a></li>
-        </ul>
+          <a href="#"><h2>The Community Science Museum</h2></a>
+          <ul class="flex">
+            <li><a href="/html/visit.html">visit us</a></li>
+            <li><a href="/html/explore.html">explore</a></li>
+            <li><a href="/html/education.html">education</a></li>
+            <li><a href="/html/event.html">event</a></li>
+          </ul>
+          <ul class="flex">
+            <li>
+              <a href="/html/contact.html">contact us</a>
+            </li>
+            <li><a href="/html/contact.html">get involved</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul class="flex">
+            <li><img src="/images/twitter.png" alt="twitter" /></li>
+            <li><img src="/images/facebook.png" alt="facebook" /></li>
+            <li><img src="/images/instagram.png" alt="instagram" /></li>
+            <li><img src="/images/tiktok.png" alt="tiktok" /></li>
+          </ul>
+        </div>
       </div>
-      <div class="container">
-      <ul class="flex">
-        <li><img src="/images/twitter.png" alt="twitter" /></li>
-        <li><img src="/images/facebook.png" alt="facebook" /></li>
-        <li><img src="/images/instagram.png" alt="instagram" /></li>
-        <li><img src="/images/tiktok.png" alt="tiktok" /></li>
-      </ul>
-    </div>
-  </div>
     </footer>
   </body>
 </html>

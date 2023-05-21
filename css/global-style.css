@@ -23,7 +23,7 @@ body{
 footer{
   background-color: white;
   height: 400px;
-  margin-top: 200px;
+  margin-top: 90px;
   justify-content: center;
   padding: 0px 30px 0px 30px;
 }
@@ -123,10 +123,8 @@ ul a:hover{
   align-items: center;
 }
 
-@media (max-width: 480px) {
-  h1 {
-    font-size: 18 px;
-  }
+h2{
+  color: #ff0291;
 }
 
 @media (min-width:871px){
@@ -173,7 +171,7 @@ header input{
 nav ul {
   flex-direction: column;
   position: absolute;
-  background-color: #FF00A8;
+  background-color: #ff0291;
   width: 100%;
   height: 100%;
   top: -30px;
