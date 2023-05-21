@@ -7,13 +7,11 @@
     line-height: 40px;
     margin-left: 90px;
     margin-top: 90px;
+    background-color: #ffedfa16;
 }
 span:hover{
     text-decoration: underline wavy black;
 }
-
-
-
 
 .outerflex img{
     width: 420px;
