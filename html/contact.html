@@ -41,7 +41,7 @@
     <main>
       <section class="flex column center">
         <h1>Contact us</h1>
-        <form class="flex column" action="/html/contact.html">
+        <form class="flex column" action="/html/contact.html" id="contact-form">
           <label for="name">Your name</label>
           <input type="text" id="name" />
           <label for="email">Your e-mail address</label>
@@ -54,7 +54,7 @@
           </select>
           <label for="request">Your request...</label>
           <input class="requestbox" type="text" id="request" />
-          <input type="submit" name="submit" class="submit" />
+          <input type="submit" name="submit" class="submit" form="contact-form"/>
         </form>
       </section>
     </main>
