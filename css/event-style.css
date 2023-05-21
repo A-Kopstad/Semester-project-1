@@ -32,10 +32,9 @@ span:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ff08ab;
+    background-color: black;
     color: white;
     max-height: 80px;
-    background-color: #ffedfa16;
 
 }
 
