@@ -27,7 +27,7 @@ Tech stack:
 Before getting started, clone the repository
 
 ```bash
-git clone git@github.com:A-Kopstad/Rainydays-Assignment.git
+git clone git@github.com:A-Kopstad/Semester-project-1.git
 ```
 
 And make sure to have the following installed:
